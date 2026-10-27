@@ -1,0 +1,7 @@
+C:\Users\CC2_PC13\Proyecto\Proyecto_1\Proyecto_1\obj\Debug\Proyecto_1.csprojResolveAssemblyReference.cache
+C:\Users\CC2_PC13\Proyecto\Proyecto_1\Proyecto_1\obj\Debug\Proyecto_1.MainForm.resources
+C:\Users\CC2_PC13\Proyecto\Proyecto_1\Proyecto_1\obj\Debug\Proyecto_1.csproj.GenerateResource.Cache
+C:\Users\CC2_PC13\Proyecto\Proyecto_1\Proyecto_1\bin\Debug\Proyecto_1.exe
+C:\Users\CC2_PC13\Proyecto\Proyecto_1\Proyecto_1\bin\Debug\Proyecto_1.pdb
+C:\Users\CC2_PC13\Proyecto\Proyecto_1\Proyecto_1\obj\Debug\Proyecto_1.exe
+C:\Users\CC2_PC13\Proyecto\Proyecto_1\Proyecto_1\obj\Debug\Proyecto_1.pdb
