@@ -42,6 +42,7 @@ namespace Proyecto_1
 			this.btnDiv = new System.Windows.Forms.Button();
 			this.txtNum2 = new System.Windows.Forms.TextBox();
 			this.txtNum1 = new System.Windows.Forms.TextBox();
+			this.button1 = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// btnResta
@@ -98,11 +99,22 @@ namespace Proyecto_1
 			this.txtNum1.Size = new System.Drawing.Size(100, 20);
 			this.txtNum1.TabIndex = 5;
 			// 
+			// button1
+			// 
+			this.button1.Location = new System.Drawing.Point(177, 268);
+			this.button1.Name = "button1";
+			this.button1.Size = new System.Drawing.Size(105, 41);
+			this.button1.TabIndex = 6;
+			this.button1.Text = "formula general";
+			this.button1.UseVisualStyleBackColor = true;
+			this.button1.Click += new System.EventHandler(this.Button1Click);
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(473, 352);
+			this.Controls.Add(this.button1);
 			this.Controls.Add(this.txtNum1);
 			this.Controls.Add(this.txtNum2);
 			this.Controls.Add(this.btnDiv);
@@ -114,6 +126,7 @@ namespace Proyecto_1
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
+		private System.Windows.Forms.Button button1;
 		private System.Windows.Forms.TextBox txtNum1;
 		private System.Windows.Forms.TextBox txtNum2;
 		private System.Windows.Forms.Button btnDiv;

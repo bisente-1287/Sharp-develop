@@ -63,5 +63,12 @@ namespace Proyecto_1
 			R=n/m;
 			MessageBox.Show("El resultado es: "+R);
 		}
+		
+		void Button1Click(object sender, EventArgs e)
+		{
+			Form1 f= new Form1();
+			f.Show();
+			this.Hide();
+		}
 	}
 }
