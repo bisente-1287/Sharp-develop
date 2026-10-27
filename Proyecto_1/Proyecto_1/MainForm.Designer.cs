@@ -36,6 +36,7 @@ namespace Proyecto_1
 		/// </summary>
 		private void InitializeComponent()
 		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
 			this.btnResta = new System.Windows.Forms.Button();
 			this.btnMul = new System.Windows.Forms.Button();
 			this.btnSuma = new System.Windows.Forms.Button();
@@ -44,10 +45,13 @@ namespace Proyecto_1
 			this.txtNum1 = new System.Windows.Forms.TextBox();
 			this.button1 = new System.Windows.Forms.Button();
 			this.button2 = new System.Windows.Forms.Button();
+			this.pictureBox1 = new System.Windows.Forms.PictureBox();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// btnResta
 			// 
+			this.btnResta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
 			this.btnResta.Location = new System.Drawing.Point(136, 193);
 			this.btnResta.Name = "btnResta";
 			this.btnResta.Size = new System.Drawing.Size(75, 23);
@@ -58,6 +62,7 @@ namespace Proyecto_1
 			// 
 			// btnMul
 			// 
+			this.btnMul.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
 			this.btnMul.Location = new System.Drawing.Point(237, 193);
 			this.btnMul.Name = "btnMul";
 			this.btnMul.Size = new System.Drawing.Size(75, 23);
@@ -68,6 +73,7 @@ namespace Proyecto_1
 			// 
 			// btnSuma
 			// 
+			this.btnSuma.ForeColor = System.Drawing.Color.Fuchsia;
 			this.btnSuma.Location = new System.Drawing.Point(44, 192);
 			this.btnSuma.Name = "btnSuma";
 			this.btnSuma.Size = new System.Drawing.Size(75, 23);
@@ -78,6 +84,7 @@ namespace Proyecto_1
 			// 
 			// btnDiv
 			// 
+			this.btnDiv.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
 			this.btnDiv.Location = new System.Drawing.Point(327, 193);
 			this.btnDiv.Name = "btnDiv";
 			this.btnDiv.Size = new System.Drawing.Size(75, 23);
@@ -102,6 +109,7 @@ namespace Proyecto_1
 			// 
 			// button1
 			// 
+			this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
 			this.button1.Location = new System.Drawing.Point(177, 268);
 			this.button1.Name = "button1";
 			this.button1.Size = new System.Drawing.Size(105, 41);
@@ -112,6 +120,7 @@ namespace Proyecto_1
 			// 
 			// button2
 			// 
+			this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
 			this.button2.Location = new System.Drawing.Point(193, 222);
 			this.button2.Name = "button2";
 			this.button2.Size = new System.Drawing.Size(75, 23);
@@ -120,11 +129,22 @@ namespace Proyecto_1
 			this.button2.UseVisualStyleBackColor = true;
 			this.button2.Click += new System.EventHandler(this.Button2Click);
 			// 
+			// pictureBox1
+			// 
+			this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+			this.pictureBox1.Location = new System.Drawing.Point(13, 41);
+			this.pictureBox1.Name = "pictureBox1";
+			this.pictureBox1.Size = new System.Drawing.Size(219, 126);
+			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+			this.pictureBox1.TabIndex = 8;
+			this.pictureBox1.TabStop = false;
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(473, 352);
+			this.Controls.Add(this.pictureBox1);
 			this.Controls.Add(this.button2);
 			this.Controls.Add(this.button1);
 			this.Controls.Add(this.txtNum1);
@@ -135,9 +155,11 @@ namespace Proyecto_1
 			this.Controls.Add(this.btnResta);
 			this.Name = "MainForm";
 			this.Text = "Proyecto_1";
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
+		private System.Windows.Forms.PictureBox pictureBox1;
 		private System.Windows.Forms.Button button2;
 		private System.Windows.Forms.Button button1;
 		private System.Windows.Forms.TextBox txtNum1;
