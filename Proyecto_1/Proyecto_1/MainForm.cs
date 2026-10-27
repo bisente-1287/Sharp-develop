@@ -70,5 +70,13 @@ namespace Proyecto_1
 			f.Show();
 			this.Hide();
 		}
+		
+		void Button2Click(object sender, EventArgs e)
+		{
+			n=Convert.ToDouble(txtNum1.Text);
+			m=Convert.ToDouble(txtNum2.Text);
+			R=n%m;
+			MessageBox.Show("El resultado es: "+R);
+		}
 	}
 }
